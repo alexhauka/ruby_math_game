@@ -7,8 +7,4 @@ class Player
     self.lives = 3
     self.turn = true
   end
-
-  def inspect
-    "Player - id: #{object_id} - name: #{@name}"
-  end
 end
